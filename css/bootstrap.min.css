@@ -370,6 +370,7 @@ legend {
 
 progress {
     vertical-align: baseline
+    
 }
 
 [type=number]::-webkit-inner-spin-button,
@@ -4231,6 +4232,7 @@ tbody.collapse.show {
 }
 
 .progress {
+    margin: 20px;
     display: flex;
     overflow: hidden;
     font-size: .75rem;

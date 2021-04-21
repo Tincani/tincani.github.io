@@ -3780,7 +3780,8 @@ Created using IcoMoon - icomoon.io
   position: relative;
   background: #FFFFFF; }
   .section .row + .category {
-    margin-top: 15px; }
+    margin-top: 15px;
+  }
 
 .section-navbars {
   padding-bottom: 0; }
