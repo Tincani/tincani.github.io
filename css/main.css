@@ -5278,7 +5278,7 @@ Created using IcoMoon - icomoon.io
   color: #dd4b39; }
 
 .cc-instagram:hover i {
-  color: #405de6; }
+  color: #40e669; }
 
 /* Credit Style */
 a.credit {
@@ -5313,6 +5313,11 @@ section{
    background:rgb(23,44,60); 
   -webkit-transition: width 1.5s ease-in-out;
   transition: width 1.5s ease-in-out;
+}
+
+.icone-competenze {
+  width: 150px;
+  height: 150px;
 }
 
 
