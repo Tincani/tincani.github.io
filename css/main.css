@@ -55,11 +55,6 @@
   transform: translate3d(0, 0, 0);
   width: 100px !important; }
 
-  .iconeconoscenze {
-    width: 30;
-    height: 30;
-  }
-
 .bootstrap-switch .bootstrap-switch-handle-on,
 .bootstrap-switch .bootstrap-switch-handle-off,
 .bootstrap-switch .bootstrap-switch-label {
