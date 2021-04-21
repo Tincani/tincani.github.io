@@ -59,4 +59,20 @@ $(function () {
    }  
  });
 
+ function cambia_colore_instagram_in(){
+      document.getElementById("instagram").style.backgroundColor = "#40e669";
+ }
+
+ function cambia_colore_instagram_out(){
+    document.getElementById("instagram").style.backgroundColor = "#FF7514";
+}
+
+function cambia_colore_linkedin_in(){
+  document.getElementById("linkedin").style.backgroundColor = "#40e669";
+}
+
+function cambia_colore_linkedin_out(){
+document.getElementById("linkedin").style.backgroundColor = "#FF7514";
+}
+
 
