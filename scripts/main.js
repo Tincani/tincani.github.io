@@ -60,19 +60,19 @@ $(function () {
  });
 
  function cambia_colore_instagram_in(){
-      document.getElementById("instagram").style.backgroundColor = "#40e669";
+      document.getElementById("instagram").style.backgroundColor = "#279216";
  }
 
  function cambia_colore_instagram_out(){
-    document.getElementById("instagram").style.backgroundColor = "#FF7514";
+    document.getElementById("instagram").style.backgroundColor = "#DA7223";
 }
 
 function cambia_colore_linkedin_in(){
-  document.getElementById("linkedin").style.backgroundColor = "#40e669";
+  document.getElementById("linkedin").style.backgroundColor = "#279216";
 }
 
 function cambia_colore_linkedin_out(){
-document.getElementById("linkedin").style.backgroundColor = "#FF7514";
+document.getElementById("linkedin").style.backgroundColor = "#DA7223";
 }
 
 
