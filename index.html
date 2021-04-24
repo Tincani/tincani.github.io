@@ -16,6 +16,7 @@
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
     <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <noscript>
@@ -26,6 +27,24 @@
         }
       </style>
     </noscript>
+    <script>
+      $(document).ready(function () {
+          $("#instagram").mouseover(function () {
+            $("#instagram").css("background-color", "#baa93f");
+          });
+          $("#instagram").mouseout(function () {
+            $("#instagram").css("background-color", "#42289e");
+          });
+        });
+        $(document).ready(function () {
+          $("#linkedin").mouseover(function () {
+            $("#linkedin").css("background-color", "#baa93f");
+          });
+          $("#linkedin").mouseout(function () {
+            $("#linkedin").css("background-color", "#42289e");
+          });
+        });
+    </script>
   </head>
   <body id="top">
 
@@ -67,7 +86,7 @@
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a id="instagram" class="btn btn-default btn-round btn-lg btn-icon" style="background-color: #42289e;"  href="https://www.instagram.com/matteo.tincans/" onmouseover="document.getElementById('instagram').style.backgroundColor='#baa93f'" onmouseout="document.getElementById('instagram').style.backgroundColor='#42289e'" rel="tooltip" title="Seguimi su Instagram"><i class="fa fa-instagram"></i></a><a id="linkedin" class="btn btn-default btn-round btn-lg btn-icon" style="background-color: #42289e;" onmouseover="document.getElementById('linkedin').style.backgroundColor='#baa93f'" onmouseout="document.getElementById('linkedin').style.backgroundColor='#42289e'" href="https://www.linkedin.com/in/matteo-tincani-4433a1202?trk=people-guest_people_search-card" rel="tooltip" title="Seguimi su Linkedin"><i class="fa fa-linkedin"></i></a></div>
+          <div class="button-container"><a id="instagram" class="btn btn-default btn-round btn-lg btn-icon" style="background-color: #42289e;"  href="https://www.instagram.com/matteo.tincans/"  rel="tooltip" title="Seguimi su Instagram"><i class="fa fa-instagram"></i></a><a id="linkedin" class="btn btn-default btn-round btn-lg btn-icon" style="background-color: #42289e;" href="https://www.linkedin.com/in/matteo-tincani-4433a1202?trk=people-guest_people_search-card" rel="tooltip" title="Seguimi su Linkedin"><i class="fa fa-linkedin"></i></a></div>
         </div>
       </div>
     </div>
@@ -366,5 +385,6 @@
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    
   </body>
 </html>
