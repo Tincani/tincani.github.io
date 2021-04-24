@@ -43,6 +43,24 @@ $('a.smooth-scroll')
 });
 
 
+$(document).ready(function () {
+  $("#instagram").mouseover(function () {
+    $("#instagram").css("background-color", "#baa93f");
+  });
+  $("#instagram").mouseout(function () {
+    $("#instagram").css("background-color", "#42289e");
+  });
+});
+$(document).ready(function () {
+  $("#linkedin").mouseover(function () {
+    $("#linkedin").css("background-color", "#baa93f");
+  });
+  $("#linkedin").mouseout(function () {
+    $("#linkedin").css("background-color", "#42289e");
+  });
+});
+
+
 
 
 
